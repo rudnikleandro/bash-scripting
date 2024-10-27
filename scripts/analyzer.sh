@@ -1,7 +1,6 @@
 #!/bin/bash
 # Script to display a menu and check system information based on the user's choice
 
-# Function to install and display screenfetch
 install_and_run_screenfetch() {
     if ! command -v screenfetch &> /dev/null; then
         echo "Installing screenfetch..."
